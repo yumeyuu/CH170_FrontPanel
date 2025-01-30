@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CH170_FrontPanel")(type "KiCad")(uri "${KIPRJMOD}/libs/CH170_FrontPanel.pretty")(options "")(descr ""))
+)
