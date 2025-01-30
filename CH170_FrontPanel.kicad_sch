@@ -2065,6 +2065,194 @@
 		)
 		(uuid "fd7063e5-bf77-493b-b83d-4a90c46b9e06")
 	)
+	(rectangle
+		(start 207.01 93.98)
+		(end 274.32 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 71b846e5-55ba-4d8e-95d7-e2995362c008)
+	)
+	(rectangle
+		(start 207.01 74.93)
+		(end 274.32 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 85c819e3-1f63-4291-acac-e27cfc315708)
+	)
+	(rectangle
+		(start 207.01 52.07)
+		(end 274.32 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dbf3991b-4903-4411-a134-a1c7c9d2fd9b)
+	)
+	(text_box "Power LED Array\n\nper LED approx 4 mA\nfor total of 16 mA"
+		(exclude_from_sim no)
+		(at 96.52 170.18 0)
+		(size 26.67 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2363efbc-8261-4b2c-8092-aaf56039c438")
+	)
+	(text_box "HDAudio jacks support screw"
+		(exclude_from_sim no)
+		(at 243.84 77.47 0)
+		(size 27.94 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "53bcbcea-0cb4-4fa8-a7c3-92d30d85a76e")
+	)
+	(text_box "Power switch\n\nRegular 6x6 mm button"
+		(exclude_from_sim no)
+		(at 69.85 110.49 0)
+		(size 27.94 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "955bbba8-c656-471b-a408-7a444f0d7d73")
+	)
+	(text_box "HDD Busy LED Array\n\nper LED approx 6 mA\nfor total of 24 mA"
+		(exclude_from_sim no)
+		(at 44.45 170.18 0)
+		(size 26.67 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b741c4c0-9572-49a9-a957-9a1a65787cc8")
+	)
+	(text_box "Main mounting screws"
+		(exclude_from_sim no)
+		(at 243.84 53.34 0)
+		(size 27.94 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b830389c-f8d5-49ca-ac20-83077afd8682")
+	)
+	(text_box "USB Connectors screws"
+		(exclude_from_sim no)
+		(at 243.84 95.25 0)
+		(size 27.94 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d02d5dec-c48d-4eca-a030-2dc023479c82")
+	)
+	(text_box "Front Console connector"
+		(exclude_from_sim no)
+		(at 144.78 135.89 0)
+		(size 27.94 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e3a0ab89-89fc-4fa5-aaf9-51b2fe35c587")
+	)
+	(text_box "HDAudio connector"
+		(exclude_from_sim no)
+		(at 120.65 71.12 0)
+		(size 27.94 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fc8e5837-66b6-4eca-943e-c41d27254669")
+	)
 	(label "PWR_G"
 		(at 69.85 107.95 0)
 		(effects
@@ -2541,7 +2729,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 231.14 106.68 0)
+		(at 231.14 113.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2550,7 +2738,7 @@
 		(fields_autoplaced yes)
 		(uuid "19ffff12-296a-4da2-acb2-d506463cd2c2")
 		(property "Reference" "H111"
-			(at 233.68 105.4099 0)
+			(at 233.68 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2747,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 233.68 107.9499 0)
+			(at 233.68 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2756,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 231.14 106.68 0)
+			(at 231.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 106.68 0)
+			(at 231.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2774,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 231.14 106.68 0)
+			(at 231.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2793,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 210.82 91.44 0)
+		(at 210.82 97.79 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2614,7 +2802,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eadcdaf-8c1a-432a-be0b-9cb9e710a042")
 		(property "Reference" "H104"
-			(at 213.36 90.1699 0)
+			(at 213.36 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2811,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 213.36 92.7099 0)
+			(at 213.36 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2820,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 210.82 91.44 0)
+			(at 210.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 91.44 0)
+			(at 210.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2838,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 210.82 91.44 0)
+			(at 210.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +4100,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 210.82 99.06 0)
+		(at 210.82 105.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3921,7 +4109,7 @@
 		(fields_autoplaced yes)
 		(uuid "671b464d-7f5c-476d-b282-3a9c92e1ff50")
 		(property "Reference" "H105"
-			(at 213.36 97.7899 0)
+			(at 213.36 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4118,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 213.36 100.3299 0)
+			(at 213.36 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +4127,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 210.82 99.06 0)
+			(at 210.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 99.06 0)
+			(at 210.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +4145,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 210.82 99.06 0)
+			(at 210.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +4164,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 231.14 99.06 0)
+		(at 231.14 105.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3985,7 +4173,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a968dc5-3a64-4958-9a80-d16893822d8d")
 		(property "Reference" "H110"
-			(at 233.68 97.7899 0)
+			(at 233.68 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +4182,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 233.68 100.3299 0)
+			(at 233.68 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4191,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 231.14 99.06 0)
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 99.06 0)
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4209,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 231.14 99.06 0)
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +5072,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 231.14 91.44 0)
+		(at 231.14 97.79 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4893,7 +5081,7 @@
 		(fields_autoplaced yes)
 		(uuid "ced590d3-829f-4110-a07e-9ee363598b3b")
 		(property "Reference" "H109"
-			(at 233.68 90.1699 0)
+			(at 233.68 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +5090,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 233.68 92.7099 0)
+			(at 233.68 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +5099,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 231.14 91.44 0)
+			(at 231.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +5108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 91.44 0)
+			(at 231.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +5117,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 231.14 91.44 0)
+			(at 231.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5763,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 210.82 106.68 0)
+		(at 210.82 113.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5584,7 +5772,7 @@
 		(fields_autoplaced yes)
 		(uuid "e533d5dc-8ee2-43e4-aa8f-4aa36cedbffd")
 		(property "Reference" "H106"
-			(at 213.36 105.4099 0)
+			(at 213.36 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5781,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 213.36 107.9499 0)
+			(at 213.36 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5790,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 210.82 106.68 0)
+			(at 210.82 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 106.68 0)
+			(at 210.82 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5808,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 210.82 106.68 0)
+			(at 210.82 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +6047,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 210.82 77.47 0)
+		(at 210.82 80.01 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5868,15 +6056,6 @@
 		(fields_autoplaced yes)
 		(uuid "f5e2588b-b530-4821-9f4c-8ed1edbcfb9b")
 		(property "Reference" "H103"
-			(at 213.36 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
 			(at 213.36 78.7399 0)
 			(effects
 				(font
@@ -5885,8 +6064,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "M3"
+			(at 213.36 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,7 +6083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +6092,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +6101,7 @@
 			)
 		)
 		(property "Package Size" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +6110,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +6119,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6128,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +6137,7 @@
 			)
 		)
 		(property "Current" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +6146,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,7 +6155,7 @@
 			)
 		)
 		(property "TCR" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +6164,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,7 +6173,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +6182,7 @@
 			)
 		)
 		(property "Mouser MPN" ""
-			(at 210.82 77.47 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

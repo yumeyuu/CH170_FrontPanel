@@ -1,5 +1,9 @@
 # Untracked Automatic Backup files from
-CH170_FrontPanel-backups/**
+CH170_FrontPanel-backups/*.zip
 
 # Untracked KiCad lock file
 *.lck
+
+# Automatic saved file
+\#auto_saved_files\#
+_autosave*
